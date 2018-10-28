@@ -1,0 +1,758 @@
+@font-face {
+  font-family: 'tabhotel';
+  src:  url('fonts/tabhotel.eot?dfs76s');
+  src:  url('fonts/tabhotel.eot?dfs76s#iefix') format('embedded-opentype'),
+    url('fonts/tabhotel.ttf?dfs76s') format('truetype'),
+    url('fonts/tabhotel.woff?dfs76s') format('woff'),
+    url('fonts/tabhotel.svg?dfs76s#tabhotel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="t-"], [class*=" t-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tabhotel' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 90px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.t-van:before {
+  content: "\e9dc";
+}
+.t-holidays:before {
+  content: "\e9e3";
+}
+.t-people:before {
+  content: "\e9e4";
+}
+.t-technology:before {
+  content: "\e9e5";
+}
+.t-medical:before {
+  content: "\e9e6";
+}
+.t-desk:before {
+  content: "\e9e7";
+}
+.t-bellboy:before {
+  content: "\e9e8";
+}
+.t-toilet:before {
+  content: "\e9e9";
+}
+.t-like:before {
+  content: "\e9ea";
+}
+.t-arch:before {
+  content: "\e9eb";
+}
+.t-eiffel-tower2:before {
+  content: "\e9ec";
+}
+.t-people-4:before {
+  content: "\e9ed";
+}
+.t-people-3:before {
+  content: "\e9ee";
+}
+.t-people-2:before {
+  content: "\e9ef";
+}
+.t-technology-1:before {
+  content: "\e9f0";
+}
+.t-networking:before {
+  content: "\e9f1";
+}
+.t-people-1:before {
+  content: "\e9f2";
+}
+.t-travel:before {
+  content: "\e9f3";
+}
+.t-cutlery:before {
+  content: "\e900";
+}
+.t-bus-1:before {
+  content: "\e901";
+}
+.t-bus:before {
+  content: "\e902";
+}
+.t-tick-inside-circle:before {
+  content: "\e905";
+}
+.t-back-circular:before {
+  content: "\e906";
+}
+.t-map-circular:before {
+  content: "\e907";
+}
+.t-big-circular:before {
+  content: "\e908";
+}
+.t-exclamation-circular:before {
+  content: "\e909";
+}
+.t-favourite-circular:before {
+  content: "\e90a";
+}
+.t-configuration-circular:before {
+  content: "\e90b";
+}
+.t-like-circular:before {
+  content: "\e90c";
+}
+.t-mode-circular:before {
+  content: "\e90d";
+}
+.t-minus-sign-circular:before {
+  content: "\e90e";
+}
+.t-approve-circular-button:before {
+  content: "\e90f";
+}
+.t-search-circular:before {
+  content: "\e910";
+}
+.t-down-circular:before {
+  content: "\e911";
+}
+.t-menu-circular:before {
+  content: "\e912";
+}
+.t-add-circular:before {
+  content: "\e913";
+}
+.t-close-circular:before {
+  content: "\e914";
+}
+.t-resort:before {
+  content: "\e903";
+}
+.t-right-arrow-circular:before {
+  content: "\e915";
+}
+.t-room-key:before {
+  content: "\e916";
+}
+.t-remove-button:before {
+  content: "\e904";
+}
+.t-bunk-bed:before {
+  content: "\e917";
+}
+.t-ico-aide2:before {
+  content: "\e919";
+}
+.t-dacing:before {
+  content: "\e91c";
+}
+.t-arrow:before {
+  content: "\e91d";
+}
+.t-aspirateur:before {
+  content: "\e91e";
+}
+.t-atm:before {
+  content: "\e91f";
+}
+.t-Attraction:before {
+  content: "\e920";
+}
+.t-food:before {
+  content: "\e918";
+}
+.t-sofa:before {
+  content: "\e91a";
+}
+.t-laptop:before {
+  content: "\e91b";
+}
+.t-sandwich:before {
+  content: "\e921";
+}
+.t-cheese-burger:before {
+  content: "\e922";
+}
+.t-faire-ici:before {
+  content: "\e923";
+}
+.t-ico-aide:before {
+  content: "\e924";
+}
+.t-Ico-faim:before {
+  content: "\e925";
+}
+.t-Ico-tour:before {
+  content: "\e926";
+}
+.t-info-vol:before {
+  content: "\e927";
+}
+.t-retour-accueil:before {
+  content: "\e928";
+}
+.t-dacing2:before {
+  content: "\e929";
+}
+.t-anchor:before {
+  content: "\e92a";
+}
+.t-aspirateur2:before {
+  content: "\e92b";
+}
+.t-atm2:before {
+  content: "\e92c";
+}
+.t-attraction:before {
+  content: "\e92d";
+}
+.t-plane:before {
+  content: "\e92e";
+}
+.t-baby:before {
+  content: "\e92f";
+}
+.t-baggage:before {
+  content: "\e930";
+}
+.t-ball:before {
+  content: "\e931";
+}
+.t-barbacue:before {
+  content: "\e932";
+}
+.t-bodybuilding:before {
+  content: "\e933";
+}
+.t-basket-ball:before {
+  content: "\e934";
+}
+.t-beach:before {
+  content: "\e935";
+}
+.t-double-bed:before {
+  content: "\e936";
+}
+.t-tow-beds:before {
+  content: "\e937";
+}
+.t-bath:before {
+  content: "\e938";
+}
+.t-bell:before {
+  content: "\e939";
+}
+.t-bicycle:before {
+  content: "\e93a";
+}
+.t-bicyclette:before {
+  content: "\e93b";
+}
+.t-bikini:before {
+  content: "\e93c";
+}
+.t-bottle:before {
+  content: "\e93d";
+}
+.t-gloves:before {
+  content: "\e93e";
+}
+.t-fog:before {
+  content: "\e93f";
+}
+.t-brouillard:before {
+  content: "\e940";
+}
+.t-building:before {
+  content: "\e941";
+}
+.t-gift:before {
+  content: "\e942";
+}
+.t-cafe:before {
+  content: "\e943";
+}
+.t-caisse:before {
+  content: "\e944";
+}
+.t-calendar:before {
+  content: "\e945";
+}
+.t-calendar-time:before {
+  content: "\e946";
+}
+.t-camping:before {
+  content: "\e947";
+}
+.t-car-hotel:before {
+  content: "\e948";
+}
+.t-renting-car:before {
+  content: "\e949";
+}
+.t-credit-card:before {
+  content: "\e94a";
+}
+.t-lounger:before {
+  content: "\e94b";
+}
+.t-life-bouy:before {
+  content: "\e94c";
+}
+.t-chef:before {
+  content: "\e94d";
+}
+.t-maid:before {
+  content: "\e94e";
+}
+.t-cigarette:before {
+  content: "\e94f";
+}
+.t-hanger:before {
+  content: "\e950";
+}
+.t-circus:before {
+  content: "\e951";
+}
+.t-clock:before {
+  content: "\e952";
+}
+.t-clouds-outlined:before {
+  content: "\e953";
+}
+.t-cloud-stroke:before {
+  content: "\e954";
+}
+.t-cocktail-2:before {
+  content: "\e955";
+}
+.t-calendar-bottom:before {
+  content: "\e956";
+}
+.t-coffee-machine:before {
+  content: "\e957";
+}
+.t-safe:before {
+  content: "\e958";
+}
+.t-poker:before {
+  content: "\e959";
+}
+.t-cold-weather:before {
+  content: "\e95a";
+}
+.t-compass:before {
+  content: "\e95b";
+}
+.t-croissant:before {
+  content: "\e95c";
+}
+.t-currency:before {
+  content: "\e95d";
+}
+.t-dolphin:before {
+  content: "\e95e";
+}
+.t-diamond:before {
+  content: "\e95f";
+}
+.t-degree:before {
+  content: "\e960";
+}
+.t-dog:before {
+  content: "\e961";
+}
+.t-do-not_disturb:before {
+  content: "\e962";
+}
+.t-do-not_eat:before {
+  content: "\e963";
+}
+.t-calendar-top:before {
+  content: "\e964";
+}
+.t-ecouteur:before {
+  content: "\e965";
+}
+.t-starfish:before {
+  content: "\e966";
+}
+.t-fan:before {
+  content: "\e967";
+}
+.t-fax:before {
+  content: "\e968";
+}
+.t-smoothing-iron:before {
+  content: "\e969";
+}
+.t-feu:before {
+  content: "\e96a";
+}
+.t-waiter:before {
+  content: "\e96b";
+}
+.t-first-aid_kit:before {
+  content: "\e96c";
+}
+.t-calendar2:before {
+  content: "\e96d";
+}
+.t-thunder:before {
+  content: "\e96e";
+}
+.t-room-in:before {
+  content: "\e96f";
+}
+.t-room-out:before {
+  content: "\e970";
+}
+.t-fish:before {
+  content: "\e971";
+}
+.t-micro-onde:before {
+  content: "\e972";
+}
+.t-restaurant-2:before {
+  content: "\e973";
+}
+.t-single-bed:before {
+  content: "\e974";
+}
+.t-gaz:before {
+  content: "\e975";
+}
+.t-icecream:before {
+  content: "\e976";
+}
+.t-starbucks:before {
+  content: "\e977";
+}
+.t-golf:before {
+  content: "\e978";
+}
+.t-half-sun_line_weathersvg:before {
+  content: "\e979";
+}
+.t-hand-shake:before {
+  content: "\e97a";
+}
+.t-horloge-2:before {
+  content: "\e97b";
+}
+.t-hommes:before {
+  content: "\e97c";
+}
+.t-horizon-line:before {
+  content: "\e97d";
+}
+.t-horloge:before {
+  content: "\e97e";
+}
+.t-hot-coffee:before {
+  content: "\e97f";
+}
+.t-wifi:before {
+  content: "\e980";
+}
+.t-printer:before {
+  content: "\e981";
+}
+.t-orientation:before {
+  content: "\e982";
+}
+.t-customer-support:before {
+  content: "\e983";
+}
+.t-iron:before {
+  content: "\e984";
+}
+.t-jus:before {
+  content: "\e985";
+}
+.t-keys:before {
+  content: "\e986";
+}
+.t-car:before {
+  content: "\e987";
+}
+.t-lightning-bolt:before {
+  content: "\e988";
+}
+.t-bunk-bed2:before {
+  content: "\e989";
+}
+.t-theater:before {
+  content: "\e98a";
+}
+.t-ticket:before {
+  content: "\e98b";
+}
+.t-glasses:before {
+  content: "\e98c";
+}
+.t-washing-machine:before {
+  content: "\e98d";
+}
+.t-reception-2:before {
+  content: "\e98e";
+}
+.t-maid2:before {
+  content: "\e98f";
+}
+.t-mask:before {
+  content: "\e990";
+}
+.t-diving-mask:before {
+  content: "\e991";
+}
+.t-repair:before {
+  content: "\e992";
+}
+.t-hairdresser:before {
+  content: "\e993";
+}
+.t-newspaper:before {
+  content: "\e994";
+}
+.t-mixeur:before {
+  content: "\e995";
+}
+.t-cocktail:before {
+  content: "\e996";
+}
+.t-swimming:before {
+  content: "\e997";
+}
+.t-snow:before {
+  content: "\e998";
+}
+.t-no-dogs:before {
+  content: "\e999";
+}
+.t-northeast:before {
+  content: "\e99a";
+}
+.t-nuage:before {
+  content: "\e99b";
+}
+.t-night:before {
+  content: "\e99c";
+}
+.t-tv:before {
+  content: "\e99d";
+}
+.t-Orage:before {
+  content: "\e99e";
+}
+.t-palm:before {
+  content: "\e99f";
+}
+.t-parachute:before {
+  content: "\e9a0";
+}
+.t-parking:before {
+  content: "\e9a1";
+}
+.t-yoga:before {
+  content: "\e9a2";
+}
+.t-pass:before {
+  content: "\e9a3";
+}
+.t-passport:before {
+  content: "\e9a4";
+}
+.t-pharmacy:before {
+  content: "\e9a5";
+}
+.t-phone-2:before {
+  content: "\e9a6";
+}
+.t-bus2:before {
+  content: "\e9a7";
+}
+.t-photo:before {
+  content: "\e9a8";
+}
+.t-pied:before {
+  content: "\e9a9";
+}
+.t-player:before {
+  content: "\e9aa";
+}
+.t-trash:before {
+  content: "\e9ab";
+}
+.t-air-conditioner:before {
+  content: "\e9ac";
+}
+.t-rainbow:before {
+  content: "\e9ad";
+}
+.t-rainy-day_sun:before {
+  content: "\e9ae";
+}
+.t-refrigerateur:before {
+  content: "\e9af";
+}
+.t-repas:before {
+  content: "\e9b0";
+}
+.t-swimming-pool:before {
+  content: "\e9b1";
+}
+.t-network:before {
+  content: "\e9b2";
+}
+.t-reserved:before {
+  content: "\e9b3";
+}
+.t-robe:before {
+  content: "\e9b4";
+}
+.t-room-keys:before {
+  content: "\e9b5";
+}
+.t-sac:before {
+  content: "\e9b6";
+}
+.t-hair-dryer:before {
+  content: "\e9b7";
+}
+.t-waiter-2:before {
+  content: "\e9b8";
+}
+.t-reception:before {
+  content: "\e9b9";
+}
+.t-share:before {
+  content: "\e9ba";
+}
+.t-ship:before {
+  content: "\e9bb";
+}
+.t-disabled:before {
+  content: "\e9bc";
+}
+.t-sleep:before {
+  content: "\e9bd";
+}
+.t-snowflake-it:before {
+  content: "\e9be";
+}
+.t-snowflakes:before {
+  content: "\e9bf";
+}
+.t-soup:before {
+  content: "\e9c0";
+}
+.t-sun:before {
+  content: "\e9c1";
+}
+.t-sunny-day:before {
+  content: "\e9c2";
+}
+.t-painting:before {
+  content: "\e9c3";
+}
+.t-tapis:before {
+  content: "\e9c4";
+}
+.t-taxi:before {
+  content: "\e9c5";
+}
+.t-phone:before {
+  content: "\e9c6";
+}
+.t-tennis:before {
+  content: "\e9c7";
+}
+.t-plannet:before {
+  content: "\e9c8";
+}
+.t-tea:before {
+  content: "\e9c9";
+}
+.t-thermometre:before {
+  content: "\e9ca";
+}
+.t-ticket2:before {
+  content: "\e9cb";
+}
+.t-time:before {
+  content: "\e9cc";
+}
+.t-train:before {
+  content: "\e9cd";
+}
+.t-umbrella:before {
+  content: "\e9ce";
+}
+.t-valise:before {
+  content: "\e9cf";
+}
+.t-valise1:before {
+  content: "\e9d0";
+}
+.t-valise-hotel:before {
+  content: "\e9d1";
+}
+.t-porter:before {
+  content: "\e9d2";
+}
+.t-weather-symbol:before {
+  content: "\e9d3";
+}
+.t-bank:before {
+  content: "\e9d4";
+}
+.t-windy-interface_symbol:before {
+  content: "\e9d5";
+}
+.t-spa:before {
+  content: "\e9d6";
+}
+.t-eiffel-tower:before {
+  content: "\e9d7";
+}
+.t-massage:before {
+  content: "\e9d8";
+}
+.t-restaurant:before {
+  content: "\e9d9";
+}
+.t-map-marker:before {
+  content: "\e9da";
+}
+.t-information:before {
+  content: "\e9db";
+}
+.t-cash-register:before {
+  content: "\e9dd";
+}
+.t-menu:before {
+  content: "\e9de";
+}
+.t-fast-food:before {
+  content: "\e9df";
+}
+.t-home:before {
+  content: "\e9e0";
+}
+.t-review:before {
+  content: "\e9e1";
+}
+.t-commenting:before {
+  content: "\e9e2";
+}
